@@ -1,0 +1,19 @@
+{
+  "name": "hexandfile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "file2hex.js",
+  "scripts": {
+    "musicfile2hex": "cd ./music & node ./file2hex.js",
+    "musichex2file": "cd ./music & node ./hex2file.js",
+    "textfile2hex": "cd ./text & node ./file2hex.js",
+    "texthex2file": "cd ./text & node ./hex2file.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "buffer-detect": "^0.0.3-beta.2",
+    "iconv-lite": "^0.6.3"
+  }
+}
